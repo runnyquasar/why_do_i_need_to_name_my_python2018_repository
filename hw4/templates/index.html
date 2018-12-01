@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewpoint' content='width-device-width, initial-scale=1, shrink-to-fit=no'>
+    <link rel='stylesheet' href='static/css/bootstrap.css'>
+    <link rel='stylesheet' href='static/css/main.css'>
+	<title>Лингвистический опрос</title>
+</head>
+<body>
+<form action='http://127.0.0.1:5000/questions' method = 'POST'>
+	<fieldset>
+		<div class='page-header'>
+			<h1>Лингвистический опрос про матюки</h1>
+		</div>
+		<div class = 'container'>	<p>Перед вами опрос, который направлен на выявление общественного мнения по отношению к нецензурной лексики с разными корнями. Пожалуйста, постарайтесь наиболее точно оценить свое отношение к приведенным ниже словам по предложенной шкале приемлемости употребления лексики.</p>
+		<h2>Обратите внимание, что в данном опросе представлена ненормативная лексика. Вам не следует проходить опрос, если вы не достигли совершеннолетия.</h2>
+		<b>Мне есть 18 лет:</b>
+		<input type="checkbox" name="age" value="yep">Да, я готов_а пройти опрос<br>
+		<input type="checkbox" name="age" value="nope">Нет, откажусь<br>
+		<input type="submit" value="Отправить"></div>
+	</fieldset>
+</form>
+</body>
+</html>

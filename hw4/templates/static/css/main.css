@@ -1,0 +1,13 @@
+body {
+	font-family: comic sans ms ;
+	color: blue;
+	text-align: center;
+	background-image: url(http://i.imgur.com/5IDCYYW.png);
+	background-color: black;
+}
+
+.jumbotron {
+	font-size:250%;
+	color:red;
+	background-image: url(https://cc-media-foxit.fichub.com/image/fox-it-mondofox/f70d3ac6-ba4b-47e2-819c-f51cd831edc3/i-pinguini-di-madagascar-maxw-654.jpg)
+}
