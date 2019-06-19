@@ -1,0 +1,2 @@
+app: python MeduzaMarkovBot.py
+web: python Meduza_site.py
