@@ -4,7 +4,7 @@ pyTelegramBotAPI==3.6.6
 urllib3==1.24.2
 pyquery==1.1
 cssselect==1.0.3
-lxml==4.3.4
+lxml==4.6.3
 markovify==0.7.1
 nltk==3.4.3
 PySocks==1.7.0
